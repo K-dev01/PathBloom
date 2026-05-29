@@ -1,0 +1,293 @@
+{
+  "careerPaths": [
+    {
+      "id": 1,
+      "title": "Engineering & Technology",
+      "description": "High-demand field with excellent growth opportunities",
+      "opportunities": [
+        {
+          "role": "Software Developer",
+          "salaryRange": "₹3.5 - ₹12 LPA",
+          "skillsRequired": ["Programming", "Problem Solving", "Databases", "Web Development"],
+          "topCompanies": ["TCS", "Infosys", "Cognizant", "Wipro", "Microsoft", "Google"],
+          "growthProspects": "High - 15% annual growth"
+        },
+        {
+          "role": "Data Scientist",
+          "salaryRange": "₹5 - ₹18 LPA",
+          "skillsRequired": ["Python", "Machine Learning", "Statistics", "Big Data"],
+          "topCompanies": ["Microsoft", "Amazon", "Google", "Intel"],
+          "growthProspects": "Very High - 25% annual growth"
+        },
+        {
+          "role": "Network Engineer",
+          "salaryRange": "₹4 - ₹10 LPA",
+          "skillsRequired": ["Networking", "Cybersecurity", "System Administration"],
+          "topCompanies": ["TCS", "HCL", "Cisco", "IBM"],
+          "growthProspects": "High - 12% annual growth"
+        }
+      ],
+      "requiredEducation": "BE/BTech or Diploma in Engineering",
+      "entranceExams": ["JEE Main", "JEE Advanced", "TNEA", "TANCET"]
+    },
+    {
+      "id": 2,
+      "title": "IT Services & Consulting",
+      "description": "Largest employment sector in Tamil Nadu with IT hubs in Chennai and Coimbatore",
+      "opportunities": [
+        {
+          "role": "Business Analyst",
+          "salaryRange": "₹3 - ₹10 LPA",
+          "skillsRequired": ["Communication", "Analysis", "Business Understanding", "SQL"],
+          "topCompanies": ["TCS", "Infosys", "Cognizant", "Accenture"],
+          "growthProspects": "High"
+        },
+        {
+          "role": "Project Manager",
+          "salaryRange": "₹5 - ₹15 LPA",
+          "skillsRequired": ["Leadership", "Planning", "Risk Management", "Agile"],
+          "topCompanies": ["TCS", "Infosys", "Wipro", "Deloitte"],
+          "growthProspects": "Very High"
+        },
+        {
+          "role": "QA Automation Engineer",
+          "salaryRange": "₹2.5 - ₹8 LPA",
+          "skillsRequired": ["Testing", "Automation Tools", "Scripting", "Problem Solving"],
+          "topCompanies": ["TCS", "Cognizant", "HCL", "Tech Mahindra"],
+          "growthProspects": "High"
+        }
+      ],
+      "requiredEducation": "BE/BTech, Diploma, or Even BCA",
+      "entranceExams": ["TNEA", "Placement examinations"]
+    },
+    {
+      "id": 3,
+      "title": "Manufacturing & Industrial Sector",
+      "description": "Strong opportunities in Hosur, Coimbatore, and Salem industrial regions",
+      "opportunities": [
+        {
+          "role": "Production Engineer",
+          "salaryRange": "₹3.5 - ₹9 LPA",
+          "skillsRequired": ["Process Optimization", "Quality Control", "CAD", "Leadership"],
+          "topCompanies": ["Foxconn", "Bosch", "Johnson Controls", "Flex"],
+          "growthProspects": "Moderate - 8% annual growth"
+        },
+        {
+          "role": "Plant Manager",
+          "salaryRange": "₹6 - ₹20 LPA",
+          "skillsRequired": ["Strategic Planning", "Team Management", "Operations", "Compliance"],
+          "topCompanies": ["Hindustan Motors", "Bosch", "TVS", "Mahindra"],
+          "growthProspects": "High with experience"
+        },
+        {
+          "role": "Quality Assurance Inspector",
+          "salaryRange": "₹2 - ₹6 LPA",
+          "skillsRequired": ["Attention to Detail", "Testing Methods", "Documentation"],
+          "topCompanies": ["Manufacturing units in Hosur", "Coimbatore", "Salem"],
+          "growthProspects": "Steady"
+        }
+      ],
+      "requiredEducation": "BE/BTech, Diploma, or Diploma in Mechanical/Production",
+      "entranceExams": ["TNEA for diploma/BE"]
+    },
+    {
+      "id": 4,
+      "title": "Textiles & Apparel",
+      "description": "Traditional strength with modern opportunities in Tiruppur and Coimbatore",
+      "opportunities": [
+        {
+          "role": "Textile Technologist",
+          "salaryRange": "₹2.5 - ₹7 LPA",
+          "skillsRequired": ["Textile Science", "Quality Control", "Technical Knowledge"],
+          "topCompanies": ["Raymond", "Arvind Mills", "Phoenix Mills"],
+          "growthProspects": "Moderate"
+        },
+        {
+          "role": "Production Manager",
+          "salaryRange": "₹4 - ₹12 LPA",
+          "skillsRequired": ["Operations", "Leadership", "Cost Control", "Efficiency"],
+          "topCompanies": ["Major textile mills in Tiruppur"],
+          "growthProspects": "High"
+        }
+      ],
+      "requiredEducation": "Diploma or BTech in Textile Technology",
+      "entranceExams": ["TNEA"]
+    },
+    {
+      "id": 5,
+      "title": "Government & Banking",
+      "description": "Secure opportunities through TNPSC examinations and government jobs",
+      "opportunities": [
+        {
+          "role": "IAS/IPS Officer",
+          "salaryRange": "₹56,100 - ₹2.25 LPA starting",
+          "skillsRequired": ["Leadership", "Integrity", "Public Administration", "Analysis"],
+          "topCompanies": ["Government of Tamil Nadu", "Union Government"],
+          "growthProspects": "Prestigious career path"
+        },
+        {
+          "role": "Bank PO/Clerk",
+          "salaryRange": "₹28,000 - ₹60,000 per month",
+          "skillsRequired": ["Finance Knowledge", "Customer Service", "IT Skills"],
+          "topCompanies": ["SBI", "ICICI", "HDFC", "Government Banks"],
+          "growthProspects": "Stable with promotions"
+        },
+        {
+          "role": "TNPSC Group I/II/IV Officer",
+          "salaryRange": "₹28,000 - ₹1.50 LPA",
+          "skillsRequired": ["General Knowledge", "Analysis", "Administrative Skills"],
+          "topCompanies": ["Tamil Nadu Government"],
+          "growthProspects": "Secure government career"
+        }
+      ],
+      "requiredEducation": "Bachelor's degree (Any stream)",
+      "entranceExams": ["UPSC", "TNPSC", "Bank PO/Clerk exams", "SSC"]
+    },
+    {
+      "id": 6,
+      "title": "Healthcare & Pharmaceuticals",
+      "description": "Growing sector with opportunities in medicine, nursing, and pharmacy",
+      "opportunities": [
+        {
+          "role": "Pharmacist",
+          "salaryRange": "₹2.5 - ₹7 LPA",
+          "skillsRequired": ["Pharmaceutical Knowledge", "Regulatory Compliance", "Patient Care"],
+          "topCompanies": ["Dr. Reddy's", "Lupin", "Sanofi", "Cipla"],
+          "growthProspects": "High - 10% annual growth"
+        },
+        {
+          "role": "Nurse",
+          "salaryRange": "₹2 - ₹5 LPA",
+          "skillsRequired": ["Patient Care", "Medical Knowledge", "Compassion"],
+          "topCompanies": ["Apollo Hospitals", "Fortis", "Government Hospitals"],
+          "growthProspects": "Very High - Always in demand"
+        },
+        {
+          "role": "Medical Representative",
+          "salaryRange": "₹3 - ₹8 LPA",
+          "skillsRequired": ["Communication", "Product Knowledge", "Sales"],
+          "topCompanies": ["Pharma companies across TN"],
+          "growthProspects": "High"
+        }
+      ],
+      "requiredEducation": "Bachelor's in Medicine/Nursing/Pharmacy or Diploma",
+      "entranceExams": ["NEET", "TANCET"]
+    },
+    {
+      "id": 7,
+      "title": "Agriculture & Allied Sectors",
+      "description": "Government scholarships and employment in Tamil Nadu agriculture",
+      "opportunities": [
+        {
+          "role": "Agriculture Officer",
+          "salaryRange": "₹3 - ₹10 LPA",
+          "skillsRequired": ["Agricultural Science", "Soil Management", "Crop Knowledge"],
+          "topCompanies": ["Tamil Nadu Agriculture Department", "Government"],
+          "growthProspects": "Stable government job"
+        },
+        {
+          "role": "Veterinarian",
+          "salaryRange": "₹3 - ₹10 LPA",
+          "skillsRequired": ["Veterinary Science", "Animal Health", "Care"],
+          "topCompanies": ["Government veterinary departments", "Private clinics"],
+          "growthProspects": "Steady demand"
+        }
+      ],
+      "requiredEducation": "Bachelor's/Master's in Agriculture or Veterinary Science",
+      "entranceExams": ["TNEAT", "TANCET"]
+    }
+  ],
+  "tnEducationPathways": [
+    {
+      "name": "TNEA Counseling",
+      "description": "Tamil Nadu Engineering Admissions for government and private engineering colleges",
+      "steps": [
+        "Appear for 12th board exam",
+        "Apply for TNEA registration",
+        "Attend merit-based counseling",
+        "Choose college and course",
+        "Complete admission process"
+      ],
+      "colleges": "Anna University affiliated colleges and government colleges",
+      "courses": ["BE/BTech - 4 years"]
+    },
+    {
+      "name": "Polytechnic Counseling",
+      "description": "Diploma courses through polytechnic institutions after 10th",
+      "steps": [
+        "Complete 10th board exam",
+        "Apply for Polytechnic Counseling",
+        "Merit-based seat allocation",
+        "Admission to Diploma course",
+        "3-year diploma program"
+      ],
+      "colleges": "Government and private polytechnics",
+      "courses": ["Diploma in Engineering - 3 years"]
+    },
+    {
+      "name": "TNPSC Recruitment",
+      "description": "Government jobs through Tamil Nadu Public Service Commission",
+      "steps": [
+        "Complete Bachelor's degree",
+        "Apply for TNPSC exams (Group I/II/IV)",
+        "Clear prelims examination",
+        "Clear mains examination",
+        "Interview and recruitment"
+      ],
+      "jobTypes": ["Administrative Officer", "Police Officer", "Forest Officer"],
+      "salaryRange": "₹28,000 - ₹1.50 LPA"
+    }
+  ],
+  "topEmployers": [
+    {
+      "name": "TCS",
+      "headquarters": "Chennai",
+      "employees": "50,000+",
+      "primaryRoles": ["Software Development", "IT Services", "Consulting"]
+    },
+    {
+      "name": "Infosys",
+      "headquarters": "Bangalore (offices in Chennai)",
+      "employees": "30,000+",
+      "primaryRoles": ["Software Development", "Business Analysis", "IT Services"]
+    },
+    {
+      "name": "Cognizant",
+      "headquarters": "Multiple locations in TN",
+      "employees": "25,000+",
+      "primaryRoles": ["IT Services", "Consulting", "Development"]
+    },
+    {
+      "name": "Wipro",
+      "headquarters": "Multiple offices in TN",
+      "employees": "20,000+",
+      "primaryRoles": ["Software Development", "Consulting", "Support Services"]
+    }
+  ],
+  "highGrowthSectors": [
+    {
+      "sector": "Artificial Intelligence & Machine Learning",
+      "growthRate": "35% annually",
+      "salaryRange": "₹6 - ₹20 LPA",
+      "skillsNeeded": ["Python", "TensorFlow", "Data Analysis", "Statistics"]
+    },
+    {
+      "sector": "Cybersecurity",
+      "growthRate": "28% annually",
+      "salaryRange": "₹5 - ₹16 LPA",
+      "skillsNeeded": ["Security Protocols", "Network Security", "Ethical Hacking", "Compliance"]
+    },
+    {
+      "sector": "Cloud Computing",
+      "growthRate": "22% annually",
+      "salaryRange": "₹4 - ₹14 LPA",
+      "skillsNeeded": ["AWS", "Azure", "Kubernetes", "DevOps"]
+    },
+    {
+      "sector": "IoT & Embedded Systems",
+      "growthRate": "18% annually",
+      "salaryRange": "₹4 - ₹12 LPA",
+      "skillsNeeded": ["C/C++", "Microcontrollers", "Hardware Integration"]
+    }
+  ]
+}

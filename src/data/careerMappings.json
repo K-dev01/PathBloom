@@ -1,0 +1,104 @@
+{
+  "careers": [
+    {
+      "id": "full_stack_dev",
+      "title": "Full Stack Developer",
+      "category": "Core engineering",
+      "recommendedStream": "Science with Computer Science",
+      "requiredTraits": { "technology": 3, "logic": 2, "communication": 1 },
+      "skills": ["Coding", "Web Development", "Problem Solving"],
+      "pathwayId": "path_deg_tech",
+      "budgetTips": ["Government engineering colleges (Anna University affiliated)", "Free platform courses: NPTEL, SWAYAM, Coursera free tier"],
+      "tn_relevance": "High (Chennai IT hubs)",
+      "salaryRange": "3-12 LPA",
+      "scholarships": ["State engineering scholarships", "Merit-based college bursaries"]
+    },
+    {
+      "id": "uiux_designer",
+      "title": "UI/UX Designer",
+      "category": "Creative careers",
+      "recommendedStream": "Arts & Design / Computer Applications",
+      "requiredTraits": { "creativity": 3, "communication": 1, "technology": 1 },
+      "skills": ["Design tools", "Prototyping", "User Research"],
+      "pathwayId": "path_design",
+      "budgetTips": ["Design diplomas, community college courses", "Free resources: Figma, YouTube tutorials"],
+      "tn_relevance": "Medium (freelance and Chennai agencies)",
+      "salaryRange": "2.5-10 LPA",
+      "scholarships": ["Design college scholarships", "Skill development govt schemes"]
+    },
+    {
+      "id": "ai_engineer",
+      "title": "AI / ML Engineer",
+      "category": "Core engineering",
+      "recommendedStream": "Science with Maths & Computer Science",
+      "requiredTraits": { "technology": 3, "logic": 3 },
+      "skills": ["Python", "Statistics", "Machine Learning"],
+      "pathwayId": "path_deg_ai",
+      "budgetTips": ["MOOC microdegrees, scholarships for CS", "TNEA B.E. Computer Science route"]
+    },
+    {
+      "id": "cybersecurity_analyst",
+      "title": "Cybersecurity Analyst",
+      "category": "Core engineering",
+      "recommendedStream": "Science with Computer Science / Diploma in Cybersecurity",
+      "requiredTraits": { "technology": 3, "logic": 2 },
+      "skills": ["Network security", "Linux", "Forensics"],
+      "pathwayId": "path_diploma_it",
+      "budgetTips": ["ITI / Diploma routes, free certs from Cisco, Google"]
+    },
+    {
+      "id": "chartered_accountant",
+      "title": "Chartered Accountant (CA)",
+      "category": "Commerce",
+      "recommendedStream": "Commerce with Accountancy",
+      "requiredTraits": { "financeAware": 3, "logic": 2, "communication": 1 },
+      "skills": ["Accounting", "Taxation", "Auditing"],
+      "pathwayId": "path_ca",
+      "budgetTips": ["Join coaching centres with instalment plans", "Scholarships for commerce achievers"],
+      "tn_relevance": "High (state jobs, finance firms)",
+      "salaryRange": "3-20 LPA"
+    },
+    {
+      "id": "tnpsc_officer",
+      "title": "TNPSC / State Government Officer",
+      "category": "Government jobs",
+      "recommendedStream": "Arts/Science/Commerce depending on post",
+      "requiredTraits": { "publicService": 3, "communication": 2, "govInterest": 3 },
+      "skills": ["General Studies", "Current Affairs", "Administration"],
+      "pathwayId": "path_govt_exam",
+      "budgetTips": ["State coaching centres, free government materials", "Scholarship or sponsorship for exam preparation"]
+    },
+    {
+      "id": "electrician",
+      "title": "Electrician / Skilled Trades",
+      "category": "Skilled trades",
+      "recommendedStream": "ITI / Polytechnic Diploma",
+      "requiredTraits": { "handsOn": 3, "logic": 1 },
+      "skills": ["Wiring", "Maintenance", "Practical Troubleshooting"],
+      "pathwayId": "path_iti",
+      "budgetTips": ["ITI courses, Apprenticeships, government skill training (Kaushal)"],
+      "tn_relevance": "High (local industry)"
+    },
+    {
+      "id": "agriculture_officer",
+      "title": "Agricultural Officer / Agritech",
+      "category": "Agriculture",
+      "recommendedStream": "Agriculture / Biology",
+      "requiredTraits": { "biology": 3, "handsOn": 2 },
+      "skills": ["Crop science", "Agri-management", "Field work"],
+      "pathwayId": "path_agri",
+      "budgetTips": ["Government agriculture colleges, Krishi Vigyan Kendra support"],
+      "tn_relevance": "High (state agriculture programs)"
+    },
+    {
+      "id": "teacher",
+      "title": "Teacher / Educator",
+      "category": "Healthcare & Education",
+      "recommendedStream": "Any (B.Ed after degree)",
+      "requiredTraits": { "communication": 3, "publicService": 2 },
+      "skills": ["Pedagogy", "Communication", "Subject Knowledge"],
+      "pathwayId": "path_teacher",
+      "budgetTips": ["Government colleges for B.Ed, TN state scholarships"]
+    }
+  ]
+}

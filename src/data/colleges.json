@@ -1,0 +1,355 @@
+{
+  "collegesByDistrict": [
+    {
+      "district": "Chennai",
+      "colleges": [
+        {
+          "id": 1,
+          "name": "Anna University",
+          "type": "University",
+          "courses": ["BE", "BTech", "ME", "MTech", "PhD"],
+          "approximateFees": "₹50,000 - ₹300,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹6.5 LPA",
+            "highestPackage": "₹25 LPA",
+            "recruiters": ["TCS", "Infosys", "Cognizant", "Wipro", "Microsoft"]
+          },
+          "popularDepartments": ["CSE", "ECE", "Mechanical", "Civil"],
+          "website": "annauniv.edu"
+        },
+        {
+          "id": 2,
+          "name": "IIT Madras",
+          "type": "Premier Institute",
+          "courses": ["BTech", "MTech", "PhD", "MBA"],
+          "approximateFees": "₹200,000 - ₹400,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹15 LPA",
+            "highestPackage": "₹50+ LPA",
+            "recruiters": ["Google", "Amazon", "Microsoft", "Goldman Sachs", "McKinsey"]
+          },
+          "popularDepartments": ["CSE", "Electrical", "Mechanical"],
+          "website": "iitm.ac.in"
+        },
+        {
+          "id": 3,
+          "name": "Saveetha Engineering College",
+          "type": "Private Engineering",
+          "courses": ["BE", "ME"],
+          "approximateFees": "₹150,000 - ₹200,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹4.5 LPA",
+            "highestPackage": "₹12 LPA",
+            "recruiters": ["TCS", "HCL", "Tech Mahindra", "L&T", "GATE companies"]
+          },
+          "popularDepartments": ["CSE", "ECE", "Mechanical"],
+          "website": "saveetha.ac.in"
+        },
+        {
+          "id": 4,
+          "name": "Loyola College",
+          "type": "Private Arts & Science",
+          "courses": ["BA", "BSc", "MA", "MSc"],
+          "approximateFees": "₹40,000 - ₹80,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹2.5 LPA",
+            "highestPackage": "₹8 LPA",
+            "recruiters": ["IT companies", "NGOs", "Government sector"]
+          },
+          "popularDepartments": ["English", "Economics", "Physics", "Chemistry"],
+          "website": "loyolacollege.edu"
+        },
+        {
+          "id": 5,
+          "name": "Government College of Engineering Guindy",
+          "type": "Government Engineering",
+          "courses": ["BE", "ME"],
+          "approximateFees": "₹10,000 - ₹30,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹5 LPA",
+            "highestPackage": "₹15 LPA",
+            "recruiters": ["TCS", "Infosys", "IBM", "Government PSUs"]
+          },
+          "popularDepartments": ["Civil", "Mechanical", "ECE"],
+          "website": "gceguindy.ac.in"
+        }
+      ]
+    },
+    {
+      "district": "Coimbatore",
+      "colleges": [
+        {
+          "id": 6,
+          "name": "PSG Institute of Technology",
+          "type": "Private Engineering",
+          "courses": ["BE", "ME", "MTech"],
+          "approximateFees": "₹180,000 - ₹250,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹7 LPA",
+            "highestPackage": "₹30 LPA",
+            "recruiters": ["Google", "Microsoft", "Intel", "TCS", "Infosys"]
+          },
+          "popularDepartments": ["CSE", "ECE", "Mechanical"],
+          "website": "psgtech.ac.in"
+        },
+        {
+          "id": 7,
+          "name": "Coimbatore Institute of Technology",
+          "type": "Private Engineering",
+          "courses": ["BE", "ME"],
+          "approximateFees": "₹150,000 - ₹200,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹5.5 LPA",
+            "highestPackage": "₹18 LPA",
+            "recruiters": ["TCS", "Cognizant", "Accenture", "Capgemini"]
+          },
+          "popularDepartments": ["CSE", "ECE", "Mechanical", "Production"],
+          "website": "cit.ac.in"
+        },
+        {
+          "id": 8,
+          "name": "Thiagarajar College of Engineering",
+          "type": "Private Engineering",
+          "courses": ["BE", "ME"],
+          "approximateFees": "₹160,000 - ₹210,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹6 LPA",
+            "highestPackage": "₹22 LPA",
+            "recruiters": ["Infosys", "Wipro", "HCL", "LT Infotech"]
+          },
+          "popularDepartments": ["CSE", "ECE", "Mechanical"],
+          "website": "tce.edu"
+        },
+        {
+          "id": 9,
+          "name": "Government Polytechnic College, Coimbatore",
+          "type": "Government Diploma",
+          "courses": ["Diploma"],
+          "approximateFees": "₹5,000 - ₹15,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹2.5 LPA",
+            "highestPackage": "₹8 LPA",
+            "recruiters": ["Manufacturing units", "IT companies", "Government sector"]
+          },
+          "popularDepartments": ["Mechanical", "Electrical", "Civil"],
+          "website": "gpc-cbr.ac.in"
+        }
+      ]
+    },
+    {
+      "district": "Trichy",
+      "colleges": [
+        {
+          "id": 10,
+          "name": "Thiagarajar College",
+          "type": "Private Arts & Science",
+          "courses": ["BA", "BSc", "MA", "MSc"],
+          "approximateFees": "₹35,000 - ₹70,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹2.2 LPA",
+            "highestPackage": "₹7 LPA",
+            "recruiters": ["IT companies", "Consultancies", "Government jobs"]
+          },
+          "popularDepartments": ["Economics", "Physics", "Chemistry", "English"],
+          "website": "tca.ac.in"
+        },
+        {
+          "id": 11,
+          "name": "National Institute of Technology (NIT) Trichy",
+          "type": "Premier Institute",
+          "courses": ["BTech", "MTech", "PhD"],
+          "approximateFees": "₹150,000 - ₹300,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹12 LPA",
+            "highestPackage": "₹40 LPA",
+            "recruiters": ["Microsoft", "Amazon", "Google", "TCS", "Deloitte"]
+          },
+          "popularDepartments": ["CSE", "Electrical", "Mechanical"],
+          "website": "nitt.edu"
+        },
+        {
+          "id": 12,
+          "name": "Government College of Engineering Trichy",
+          "type": "Government Engineering",
+          "courses": ["BE", "ME"],
+          "approximateFees": "₹10,000 - ₹30,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹4.5 LPA",
+            "highestPackage": "₹14 LPA",
+            "recruiters": ["TCS", "Infosys", "Cognizant", "Government PSUs"]
+          },
+          "popularDepartments": ["Civil", "Electrical", "Mechanical"],
+          "website": "gcet.ac.in"
+        }
+      ]
+    },
+    {
+      "district": "Salem",
+      "colleges": [
+        {
+          "id": 13,
+          "name": "Government College of Engineering Salem",
+          "type": "Government Engineering",
+          "courses": ["BE", "ME"],
+          "approximateFees": "₹10,000 - ₹30,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹4 LPA",
+            "highestPackage": "₹12 LPA",
+            "recruiters": ["TCS", "Cognizant", "Accenture", "Manufacturing units"]
+          },
+          "popularDepartments": ["Civil", "Mechanical", "Electrical"],
+          "website": "gce.ac.in"
+        },
+        {
+          "id": 14,
+          "name": "Sri Ramakrishna Institute of Technology",
+          "type": "Private Engineering",
+          "courses": ["BE", "ME"],
+          "approximateFees": "₹140,000 - ₹190,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹4.5 LPA",
+            "highestPackage": "₹15 LPA",
+            "recruiters": ["TCS", "Wipro", "HCL", "L&T"]
+          },
+          "popularDepartments": ["CSE", "Mechanical", "ECE"],
+          "website": "srit.ac.in"
+        }
+      ]
+    },
+    {
+      "district": "Madurai",
+      "colleges": [
+        {
+          "id": 15,
+          "name": "Madurai Kamaraj University",
+          "type": "State University",
+          "courses": ["BA", "BSc", "BCom", "MA", "MSc", "MCom"],
+          "approximateFees": "₹15,000 - ₹50,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹2 LPA",
+            "highestPackage": "₹6 LPA",
+            "recruiters": ["Government sector", "NGOs", "Educational institutes"]
+          },
+          "popularDepartments": ["Economics", "Tamil", "English", "Physics"],
+          "website": "mkuniversity.ac.in"
+        },
+        {
+          "id": 16,
+          "name": "Thiagarajar College of Engineering, Madurai",
+          "type": "Private Engineering",
+          "courses": ["BE", "ME"],
+          "approximateFees": "₹150,000 - ₹200,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹5.5 LPA",
+            "highestPackage": "₹18 LPA",
+            "recruiters": ["TCS", "Infosys", "Cognizant"]
+          },
+          "popularDepartments": ["CSE", "Mechanical", "ECE"],
+          "website": "tce.ac.in"
+        }
+      ]
+    },
+    {
+      "district": "Erode",
+      "colleges": [
+        {
+          "id": 17,
+          "name": "P.S.V. College of Engineering and Technology",
+          "type": "Private Engineering",
+          "courses": ["BE", "ME"],
+          "approximateFees": "₹130,000 - ₹180,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹4 LPA",
+            "highestPackage": "₹12 LPA",
+            "recruiters": ["TCS", "Accenture", "Manufacturing companies"]
+          },
+          "popularDepartments": ["CSE", "Mechanical", "ECE"],
+          "website": "psvce.ac.in"
+        }
+      ]
+    },
+    {
+      "district": "Tirunelveli",
+      "colleges": [
+        {
+          "id": 18,
+          "name": "National Institute of Technology (NIT) Tirunelveli",
+          "type": "Premier Institute",
+          "courses": ["BTech", "MTech", "PhD"],
+          "approximateFees": "₹150,000 - ₹300,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "placementInfo": {
+            "averagePackage": "₹11 LPA",
+            "highestPackage": "₹38 LPA",
+            "recruiters": ["Microsoft", "Amazon", "TCS", "Deloitte"]
+          },
+          "popularDepartments": ["CSE", "Mechanical", "Electrical"],
+          "website": "nitt.ac.in"
+        }
+      ]
+    }
+  ],
+  "collegeTypes": ["Government Engineering", "Private Engineering", "Premier Institute", "Government Arts & Science", "Private Arts & Science", "Government Diploma", "State University"],
+  "courseTypes": ["BE/BTech", "ME/MTech", "BA", "BSc", "BCom", "Diploma", "PhD", "MBA"],
+  "affordableColleges": [
+    {
+      "name": "Government College of Engineering Guindy",
+      "fees": "₹10,000 - ₹30,000 per year",
+      "placement": "₹5 LPA average",
+      "district": "Chennai"
+    },
+    {
+      "name": "Government College of Engineering Trichy",
+      "fees": "₹10,000 - ₹30,000 per year",
+      "placement": "₹4.5 LPA average",
+      "district": "Trichy"
+    },
+    {
+      "name": "Government College of Engineering Salem",
+      "fees": "₹10,000 - ₹30,000 per year",
+      "placement": "₹4 LPA average",
+      "district": "Salem"
+    },
+    {
+      "name": "Government Polytechnic College, Coimbatore",
+      "fees": "₹5,000 - ₹15,000 per year",
+      "placement": "₹2.5 LPA average",
+      "district": "Coimbatore"
+    }
+  ]
+}

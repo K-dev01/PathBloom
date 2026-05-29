@@ -1,0 +1,119 @@
+{
+  "traits": [
+    "creativity",
+    "logic",
+    "communication",
+    "leadership",
+    "technology",
+    "biology",
+    "business",
+    "handsOn",
+    "publicService",
+    "financeAware",
+    "shortTermPref",
+    "govInterest",
+    "urbanExposure"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which activity do you enjoy most after school?",
+      "options": [
+        { "label": "Coding small apps or games", "effects": { "technology": 2, "logic": 1 } },
+        { "label": "Drawing/Designing posters", "effects": { "creativity": 2 } },
+        { "label": "Helping in a family business/shop", "effects": { "business": 2, "handsOn": 1 } },
+        { "label": "Volunteering in community events", "effects": { "publicService": 2, "communication": 1 } }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "How do you solve new problems?",
+      "options": [
+        { "label": "Break them down logically", "effects": { "logic": 2 } },
+        { "label": "Try creative experiments", "effects": { "creativity": 2, "handsOn": 1 } },
+        { "label": "Ask friends and lead a team", "effects": { "leadership": 2, "communication": 1 } },
+        { "label": "Search online tutorials and replicate", "effects": { "technology": 1, "shortTermPref": 1 } }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which subject did you prefer in school?",
+      "options": [
+        { "label": "Maths and Physics", "effects": { "logic": 2, "technology": 1 } },
+        { "label": "Biology and Chemistry", "effects": { "biology": 2 } },
+        { "label": "Economics and Accountancy", "effects": { "business": 2, "financeAware": 1 } },
+        { "label": "Languages and Social Science", "effects": { "communication": 2, "publicService": 1 } }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What kind of job environment appeals to you?",
+      "options": [
+        { "label": "Office / Tech hub (e.g., Chennai IT parks)", "effects": { "technology": 2, "urbanExposure": 1 } },
+        { "label": "Factory / Workshop (Hosur, industrial areas)", "effects": { "handsOn": 2, "business": 1 } },
+        { "label": "Field / Agricultural settings", "effects": { "handsOn": 1, "biology": 1 } },
+        { "label": "Government office / Public service", "effects": { "publicService": 2, "govInterest": 2 } }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Do you prefer learning that is quick and practical or long and theoretical?",
+      "options": [
+        { "label": "Short technical courses / diplomas (1-3 years)", "effects": { "shortTermPref": 2, "handsOn": 1 } },
+        { "label": "3-4 year degrees (B.Sc, B.Com, B.E.)", "effects": { "shortTermPref": 1, "logic": 1 } },
+        { "label": "Professional long paths (CA, Medicine)", "effects": { "financeAware": 1, "biology": 1 } },
+        { "label": "Flexible self-learning and bootcamps", "effects": { "technology": 1, "creativity": 1 } }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "How comfortable are you with hands-on technical work (tools, machines)?",
+      "options": [
+        { "label": "Very comfortable", "effects": { "handsOn": 2 } },
+        { "label": "Somewhat comfortable", "effects": { "handsOn": 1 } },
+        { "label": "Prefer theory/desk work", "effects": { "logic": 1 } },
+        { "label": "Prefer creative studio-type work", "effects": { "creativity": 1 } }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Are you interested in government exams and stable public jobs?",
+      "options": [
+        { "label": "Yes, strongly", "effects": { "govInterest": 2, "publicService": 1 } },
+        { "label": "Maybe, if it fits my skills", "effects": { "govInterest": 1 } },
+        { "label": "No, prefer private sector", "effects": { "urbanExposure": 1 } },
+        { "label": "I am open to entrepreneurship", "effects": { "business": 2 } }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Do you enjoy communicating, presenting or teaching?",
+      "options": [
+        { "label": "Yes, love it", "effects": { "communication": 2, "leadership": 1 } },
+        { "label": "Sometimes, in small groups", "effects": { "communication": 1 } },
+        { "label": "Prefer technical work", "effects": { "technology": 1 } },
+        { "label": "Prefer creative expression", "effects": { "creativity": 1 } }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "How would you describe your family's financial considerations for study?",
+      "options": [
+        { "label": "Need affordable/short courses", "effects": { "financeAware": 2, "shortTermPref": 1 } },
+        { "label": "Can support degree education", "effects": { "shortTermPref": 0 } },
+        { "label": "Prefer scholarships/government colleges", "effects": { "financeAware": 1, "govInterest": 1 } },
+        { "label": "Open to loans for higher studies", "effects": { "financeAware": 1, "business": 1 } }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Would you like to work in Chennai/Hosur or prefer local/rural opportunities?",
+      "options": [
+        { "label": "Chennai / Urban tech hubs", "effects": { "urbanExposure": 2, "technology": 1 } },
+        { "label": "Hosur / Manufacturing clusters", "effects": { "handsOn": 2, "business": 1 } },
+        { "label": "Local/rural agricultural work", "effects": { "biology": 2, "handsOn": 1 } },
+        { "label": "Flexible / remote work", "effects": { "technology": 1, "communication": 1 } }
+      ]
+    }
+  ]
+}

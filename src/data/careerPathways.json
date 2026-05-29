@@ -1,0 +1,58 @@
+{
+  "pathways": [
+    {
+      "id": "path_deg_tech",
+      "title": "10th → 12th (PCM) → B.E/B.Tech (Computer Science) → Jobs/PG",
+      "steps": ["10th → Choose Science with Maths (PCMB optional)", "12th → Appear for TNEA / JEE / State counselling", "Enroll B.E/B.Tech Computer Science via TNEA or entrance exams", "Internships → Campus placements / Startups"],
+      "notes": "Strong route for Chennai IT jobs, scholarships available via state and central schemes"
+    },
+    {
+      "id": "path_design",
+      "title": "10th → 12th (Any) → Diploma/UG in Design → Agencies/Freelance",
+      "steps": ["Take foundation courses in design", "Build portfolio using free tools (Figma)", "Apply for design diplomas or B.Des", "Freelance platforms and internships"],
+      "notes": "Affordable pathways: private diplomas, community college tie-ups"
+    },
+    {
+      "id": "path_deg_ai",
+      "title": "10th → 12th (PCM) → B.Tech/B.Sc CS → Specialized M.Tech/Certifications",
+      "steps": ["Strong math foundation", "Undergraduate degree in CS/AI", "MOOCs & internships in ML/AI", "Join AI teams or research labs"],
+      "notes": "Consider certification scholarships and part-time projects"
+    },
+    {
+      "id": "path_diploma_it",
+      "title": "10th → Diploma in IT/Computer → Lateral Entry to Degree or Jobs",
+      "steps": ["Join polytechnic diploma in IT/Computer", "Complete practical labs and projects", "Lateral entry to 2nd year B.E via counselling / join workforce"],
+      "notes": "Good for budget-conscious students seeking quick entry to IT roles"
+    },
+    {
+      "id": "path_ca",
+      "title": "12th Commerce → CA Foundation → Articleship → CA",
+      "steps": ["Complete 12th with Commerce subjects", "Enroll for CA Foundation and coaching", "Clear intermediate and start Articleship", "Final exams and certification"],
+      "notes": "Long path but high ROI; scholarships and instalment options exist"
+    },
+    {
+      "id": "path_govt_exam",
+      "title": "12th / Degree → TNPSC / State Exam Preparation → Government Service",
+      "steps": ["Select exam level (Group 4, Group 2, Group 1)", "Join state coaching or self-study with TNPSC materials", "Attempt prelims, mains and interviews", "Secure government post / transfers"],
+      "notes": "TNPSC has reserved quota and coaching support in many districts"
+    },
+    {
+      "id": "path_iti",
+      "title": "10th → ITI Trade → Apprenticeship → Skilled Worker / Small Business",
+      "steps": ["Choose an ITI trade (Electrician, Fitter)", "Complete trade course and practical training", "Apprenticeship with local firms", "Start as technician or small enterprise"],
+      "notes": "Fast route to employment with strong local demand"
+    },
+    {
+      "id": "path_agri",
+      "title": "10th → 12th → B.Sc Agriculture / Diploma → Field Work / Extension",
+      "steps": ["Consider agricultural diplomas or B.Sc Agri", "Engage with Krishi Vigyan Kendra and state schemes", "Work in field extension or agritech startups"],
+      "notes": "High relevance in Tamil Nadu rural districts"
+    },
+    {
+      "id": "path_teacher",
+      "title": "12th → Undergraduate → B.Ed → Teaching Jobs / Coaching",
+      "steps": ["Complete an undergraduate degree", "Enroll for B.Ed or D.El.Ed", "Gain teaching experience and certifications", "Apply for government or private school jobs"],
+      "notes": "Stable demand and local opportunities; scholarships for education students"
+    }
+  ]
+}
