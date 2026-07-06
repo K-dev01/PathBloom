@@ -323,8 +323,294 @@
         }
       ]
     }
+    ,
+    {
+      "district": "Nagapattinam",
+      "isCauveryDelta": true,
+      "colleges": [
+        {
+          "id": 19,
+          "name": "AVC College of Engineering",
+          "emoji": "🏛️",
+          "type": "Private Engineering",
+          "courses": ["BE", "ME"],
+          "approximateFees": "₹80,000 - ₹120,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "studentCount": 2400,
+          "interviewExperienceCount": 87,
+          "isCauveryDelta": true,
+          "placementInfo": {
+            "averagePackage": "₹3.8 LPA",
+            "highestPackage": "₹10 LPA",
+            "recruiters": ["TCS", "Infosys", "Cognizant", "HCL", "Wipro"]
+          },
+          "popularDepartments": ["CSE", "ECE", "Mechanical", "Civil"],
+          "website": "avcce.ac.in"
+        },
+        {
+          "id": 20,
+          "name": "EGS Pillay Engineering College",
+          "emoji": "🎓",
+          "type": "Private Engineering",
+          "courses": ["BE", "ME"],
+          "approximateFees": "₹75,000 - ₹110,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "studentCount": 1800,
+          "interviewExperienceCount": 63,
+          "isCauveryDelta": true,
+          "placementInfo": {
+            "averagePackage": "₹3.5 LPA",
+            "highestPackage": "₹9 LPA",
+            "recruiters": ["TCS", "Accenture", "Tech Mahindra", "Zoho"]
+          },
+          "popularDepartments": ["CSE", "ECE", "Mechanical"],
+          "website": "egspec.org"
+        },
+        {
+          "id": 21,
+          "name": "St. Joseph's College of Engineering & Technology",
+          "emoji": "⛪",
+          "type": "Private Engineering",
+          "courses": ["BE", "ME"],
+          "approximateFees": "₹70,000 - ₹100,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "studentCount": 1500,
+          "interviewExperienceCount": 42,
+          "isCauveryDelta": true,
+          "placementInfo": {
+            "averagePackage": "₹3.2 LPA",
+            "highestPackage": "₹8 LPA",
+            "recruiters": ["Infosys", "Wipro", "HCL", "Government PSUs"]
+          },
+          "popularDepartments": ["CSE", "ECE", "Civil"],
+          "website": "sjcetpd.ac.in"
+        }
+      ]
+    },
+    {
+      "district": "Thiruvarur",
+      "isCauveryDelta": true,
+      "colleges": [
+        {
+          "id": 22,
+          "name": "Central University of Tamil Nadu",
+          "emoji": "🏫",
+          "type": "State University",
+          "courses": ["BA", "BSc", "BCom", "MA", "MSc", "PhD"],
+          "approximateFees": "₹20,000 - ₹60,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "studentCount": 3200,
+          "interviewExperienceCount": 110,
+          "isCauveryDelta": true,
+          "placementInfo": {
+            "averagePackage": "₹4.5 LPA",
+            "highestPackage": "₹14 LPA",
+            "recruiters": ["Government sector", "Research institutes", "IT companies", "NGOs"]
+          },
+          "popularDepartments": ["Economics", "Computer Science", "Tamil Studies", "Physics"],
+          "website": "cutn.ac.in"
+        },
+        {
+          "id": 23,
+          "name": "Government Arts and Science College, Thiruvarur",
+          "emoji": "🏛️",
+          "type": "Government Arts & Science",
+          "courses": ["BA", "BSc", "BCom", "MA", "MSc"],
+          "approximateFees": "₹5,000 - ₹15,000 per year",
+          "hostelAvailable": false,
+          "scholarshipSupport": true,
+          "studentCount": 1200,
+          "interviewExperienceCount": 28,
+          "isCauveryDelta": true,
+          "placementInfo": {
+            "averagePackage": "₹2 LPA",
+            "highestPackage": "₹5 LPA",
+            "recruiters": ["Government sector", "Education sector", "NGOs"]
+          },
+          "popularDepartments": ["Tamil", "English", "Physics", "Mathematics"],
+          "website": "gasct.ac.in"
+        },
+        {
+          "id": 24,
+          "name": "Thiruvarur Engineering College",
+          "emoji": "⚙️",
+          "type": "Private Engineering",
+          "courses": ["BE", "ME"],
+          "approximateFees": "₹65,000 - ₹95,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "studentCount": 900,
+          "interviewExperienceCount": 19,
+          "isCauveryDelta": true,
+          "placementInfo": {
+            "averagePackage": "₹3 LPA",
+            "highestPackage": "₹7 LPA",
+            "recruiters": ["TCS", "Infosys", "Manufacturing companies"]
+          },
+          "popularDepartments": ["CSE", "Mechanical", "ECE"],
+          "website": "tvrengg.ac.in"
+        }
+      ]
+    },
+    {
+      "district": "Thanjavur",
+      "isCauveryDelta": true,
+      "colleges": [
+        {
+          "id": 25,
+          "name": "SASTRA University",
+          "emoji": "🌟",
+          "type": "University",
+          "courses": ["BTech", "MTech", "BArch", "MBA", "PhD"],
+          "approximateFees": "₹120,000 - ₹200,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "studentCount": 12000,
+          "interviewExperienceCount": 420,
+          "isCauveryDelta": true,
+          "placementInfo": {
+            "averagePackage": "₹6.5 LPA",
+            "highestPackage": "₹30 LPA",
+            "recruiters": ["Google", "Amazon", "Microsoft", "TCS", "Infosys", "Zoho"]
+          },
+          "popularDepartments": ["CSE", "ECE", "Mechanical", "Bioinformatics"],
+          "website": "sastra.edu"
+        },
+        {
+          "id": 26,
+          "name": "PRIST University",
+          "emoji": "📚",
+          "type": "University",
+          "courses": ["BE", "BTech", "BA", "BSc", "MBA", "PhD"],
+          "approximateFees": "₹80,000 - ₹140,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "studentCount": 8500,
+          "interviewExperienceCount": 215,
+          "isCauveryDelta": true,
+          "placementInfo": {
+            "averagePackage": "₹4.5 LPA",
+            "highestPackage": "₹18 LPA",
+            "recruiters": ["TCS", "Infosys", "Wipro", "HCL", "Cognizant"]
+          },
+          "popularDepartments": ["CSE", "ECE", "Management", "Commerce"],
+          "website": "prist.ac.in"
+        },
+        {
+          "id": 27,
+          "name": "Periyar Maniammai Institute of Science & Technology",
+          "emoji": "🔬",
+          "type": "Private Engineering",
+          "courses": ["BE", "BTech", "ME", "MTech"],
+          "approximateFees": "₹90,000 - ₹140,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "studentCount": 4200,
+          "interviewExperienceCount": 132,
+          "isCauveryDelta": true,
+          "placementInfo": {
+            "averagePackage": "₹4 LPA",
+            "highestPackage": "₹12 LPA",
+            "recruiters": ["TCS", "Wipro", "Accenture", "Tech Mahindra"]
+          },
+          "popularDepartments": ["CSE", "ECE", "Mechanical", "IT"],
+          "website": "pmu.edu"
+        },
+        {
+          "id": 28,
+          "name": "Government Engineering College, Thanjavur",
+          "emoji": "🏗️",
+          "type": "Government Engineering",
+          "courses": ["BE", "ME"],
+          "approximateFees": "₹10,000 - ₹30,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "studentCount": 1800,
+          "interviewExperienceCount": 76,
+          "isCauveryDelta": true,
+          "placementInfo": {
+            "averagePackage": "₹4 LPA",
+            "highestPackage": "₹11 LPA",
+            "recruiters": ["TCS", "Cognizant", "Government PSUs", "L&T"]
+          },
+          "popularDepartments": ["Civil", "Mechanical", "ECE", "CSE"],
+          "website": "gcethanjavur.ac.in"
+        }
+      ]
+    },
+    {
+      "district": "Mayiladuthurai",
+      "isCauveryDelta": true,
+      "colleges": [
+        {
+          "id": 29,
+          "name": "AVC College (Autonomous)",
+          "emoji": "🎓",
+          "type": "Private Arts & Science",
+          "courses": ["BA", "BSc", "BCom", "MA", "MSc", "MPhil"],
+          "approximateFees": "₹15,000 - ₹40,000 per year",
+          "hostelAvailable": true,
+          "scholarshipSupport": true,
+          "studentCount": 3500,
+          "interviewExperienceCount": 94,
+          "isCauveryDelta": true,
+          "placementInfo": {
+            "averagePackage": "₹2.8 LPA",
+            "highestPackage": "₹7 LPA",
+            "recruiters": ["IT companies", "Education sector", "Government sector"]
+          },
+          "popularDepartments": ["Computer Science", "Physics", "Chemistry", "Tamil", "English"],
+          "website": "avcc.edu.in"
+        },
+        {
+          "id": 30,
+          "name": "Dharmapuram Adhinam Arts College",
+          "emoji": "🕌",
+          "type": "Private Arts & Science",
+          "courses": ["BA", "BSc", "BCom", "MA", "MSc"],
+          "approximateFees": "₹10,000 - ₹30,000 per year",
+          "hostelAvailable": false,
+          "scholarshipSupport": true,
+          "studentCount": 1400,
+          "interviewExperienceCount": 31,
+          "isCauveryDelta": true,
+          "placementInfo": {
+            "averagePackage": "₹2 LPA",
+            "highestPackage": "₹5 LPA",
+            "recruiters": ["Government sector", "Education sector", "NGOs"]
+          },
+          "popularDepartments": ["Tamil", "History", "Economics", "English"],
+          "website": "daac.ac.in"
+        },
+        {
+          "id": 31,
+          "name": "Government Arts College, Mayiladuthurai",
+          "emoji": "🏛️",
+          "type": "Government Arts & Science",
+          "courses": ["BA", "BSc", "BCom", "MA", "MSc"],
+          "approximateFees": "₹4,000 - ₹12,000 per year",
+          "hostelAvailable": false,
+          "scholarshipSupport": true,
+          "studentCount": 1100,
+          "interviewExperienceCount": 22,
+          "isCauveryDelta": true,
+          "placementInfo": {
+            "averagePackage": "₹1.8 LPA",
+            "highestPackage": "₹4.5 LPA",
+            "recruiters": ["Government sector", "Education sector"]
+          },
+          "popularDepartments": ["Tamil", "English", "Mathematics", "History"],
+          "website": "gacmayiladuthurai.ac.in"
+        }
+      ]
+    }
   ],
-  "collegeTypes": ["Government Engineering", "Private Engineering", "Premier Institute", "Government Arts & Science", "Private Arts & Science", "Government Diploma", "State University"],
+  "cauveryDeltaDistricts": ["Nagapattinam", "Thiruvarur", "Thanjavur", "Mayiladuthurai"],
+  "collegeTypes": ["Government Engineering", "Private Engineering", "Premier Institute", "Government Arts & Science", "Private Arts & Science", "Government Diploma", "State University", "University"],
   "courseTypes": ["BE/BTech", "ME/MTech", "BA", "BSc", "BCom", "Diploma", "PhD", "MBA"],
   "affordableColleges": [
     {
@@ -340,16 +626,16 @@
       "district": "Trichy"
     },
     {
-      "name": "Government College of Engineering Salem",
+      "name": "Government Engineering College, Thanjavur",
       "fees": "₹10,000 - ₹30,000 per year",
       "placement": "₹4 LPA average",
-      "district": "Salem"
+      "district": "Thanjavur"
     },
     {
-      "name": "Government Polytechnic College, Coimbatore",
-      "fees": "₹5,000 - ₹15,000 per year",
-      "placement": "₹2.5 LPA average",
-      "district": "Coimbatore"
+      "name": "Government Arts College, Mayiladuthurai",
+      "fees": "₹4,000 - ₹12,000 per year",
+      "placement": "₹1.8 LPA average",
+      "district": "Mayiladuthurai"
     }
   ]
 }
