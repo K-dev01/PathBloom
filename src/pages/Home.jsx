@@ -29,9 +29,9 @@ function useCountUp(target, duration = 2000, inView = false) {
 
 /* ── Data ── */
 const stats = [
-  { label: 'Experiences Shared', value: 12480, suffix: '+', icon: Star, color: '#f59e0b' },
+  { label: 'Experiences Shared', value: 250, suffix: '+', icon: Star, color: '#f59e0b' },
   { label: 'Total Colleges', value: 31, suffix: '+', icon: Building2, color: '#6366f1' },
-  { label: 'Students Helped', value: 50000, suffix: '+', icon: Users, color: '#10b981' },
+  { label: 'Students Helped', value: 500, suffix: '+', icon: Users, color: '#10b981' },
   { label: 'Success Rate', value: 98, suffix: '%', icon: TrendingUp, color: '#ec4899' },
 ];
 
