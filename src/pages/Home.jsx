@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import {
   ArrowRight, Sparkles, Target, Building2,
   Trophy, Brain, TrendingUp, Star, Clock, Users,
+  Compass, BadgeCheck,
 } from 'lucide-react';
 
 /* ── Animated counter hook ── */
@@ -137,12 +138,9 @@ function StatCard({ stat }) {
     <motion.div
       ref={ref}
       whileHover={{ y: -4, scale: 1.03 }}
-      className="rounded-2xl p-6 text-center relative overflow-hidden"
+      className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white/80 p-6 text-center shadow-sm backdrop-blur-xl dark:border-white/10 dark:bg-slate-900/70"
       style={{
-        background: 'rgba(255,255,255,0.07)',
-        border: '1px solid rgba(255,255,255,0.12)',
-        backdropFilter: 'blur(16px)',
-        boxShadow: `0 8px 32px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,255,255,0.05)`,
+        boxShadow: '0 12px 40px rgba(15, 23, 42, 0.08)',
       }}
     >
       <div className="absolute inset-0 rounded-2xl pointer-events-none"
@@ -154,7 +152,7 @@ function StatCard({ stat }) {
       <div className="text-3xl font-black tracking-tight" style={{ color: stat.color }}>
         {count >= 1000 ? `${(count / 1000).toFixed(count >= 10000 ? 0 : 1)}K` : count}{stat.suffix}
       </div>
-      <div className="text-xs text-gray-400 mt-1 font-medium">{stat.label}</div>
+      <div className="mt-1 text-xs font-medium text-slate-500 dark:text-slate-400">{stat.label}</div>
     </motion.div>
   );
 }
@@ -171,106 +169,83 @@ const itemVariants = {
 
 export default function Home() {
   return (
-    <motion.div variants={containerVariants} initial="hidden" animate="visible" className="space-y-10">
-
-      {/* ── Hero ── */}
-      <motion.div variants={itemVariants} className="relative">
-        {/* Background glow orbs */}
-        <div className="absolute -top-12 -left-12 w-72 h-72 rounded-full pointer-events-none opacity-25"
-          style={{ background: 'radial-gradient(circle, #6366f1, transparent 70%)', filter: 'blur(40px)' }} />
-        <div className="absolute -bottom-8 right-0 w-56 h-56 rounded-full pointer-events-none opacity-20"
-          style={{ background: 'radial-gradient(circle, #8b5cf6, transparent 70%)', filter: 'blur(40px)' }} />
-
-        <div
-          className="relative rounded-3xl p-8 md:p-12 overflow-hidden"
-          style={{
-            background: 'linear-gradient(135deg, rgba(15,14,40,0.9) 0%, rgba(30,27,75,0.8) 100%)',
-            border: '1px solid rgba(99,102,241,0.3)',
-            backdropFilter: 'blur(20px)',
-            boxShadow: '0 20px 60px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.07)',
-          }}
-        >
-          {/* Top gradient line */}
-          <div className="absolute top-0 left-0 right-0 h-px"
-            style={{ background: 'linear-gradient(90deg, transparent, rgba(99,102,241,0.6), rgba(139,92,246,0.6), transparent)' }} />
-
-          <div className="max-w-2xl relative z-10">
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-medium mb-6"
-              style={{
-                background: 'rgba(99,102,241,0.2)',
-                border: '1px solid rgba(99,102,241,0.4)',
-                color: '#a5b4fc',
-              }}
-            >
-              <Sparkles size={14} /> Cauvery Delta's #1 Career Platform
+    <motion.div variants={containerVariants} initial="hidden" animate="visible" className="space-y-8">
+      <motion.div variants={itemVariants} className="relative overflow-hidden rounded-[32px] border border-indigo-500/20 bg-white/70 p-8 shadow-[0_24px_80px_rgba(99,102,241,0.14)] backdrop-blur-xl dark:border-white/10 dark:bg-slate-900/70 md:p-10 lg:p-12">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(99,102,241,0.18),_transparent_40%),radial-gradient(circle_at_bottom_right,_rgba(16,185,129,0.16),_transparent_35%)]" />
+        <div className="relative z-10 grid gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
+          <div className="max-w-2xl">
+            <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.35 }} className="mb-5 inline-flex items-center gap-2 rounded-full border border-indigo-500/20 bg-indigo-500/10 px-4 py-2 text-sm font-semibold text-indigo-700 dark:border-indigo-400/25 dark:bg-indigo-400/10 dark:text-indigo-200">
+              <Sparkles size={15} />
+              Trusted by students across the Cauvery Delta
             </motion.div>
 
-            <motion.h1
-              variants={itemVariants}
-              className="text-4xl sm:text-5xl lg:text-6xl font-black text-white mb-4 leading-tight"
-            >
-              Bloom Your{' '}
-              <span style={{
-                background: 'linear-gradient(135deg, #818cf8, #c084fc, #fb7185)',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-              }}>
-                Path Forward
-              </span>
+            <motion.h1 variants={itemVariants} className="text-4xl font-black leading-tight text-slate-900 dark:text-white sm:text-5xl lg:text-6xl">
+              Discover a future that fits your story.
             </motion.h1>
-
-            <motion.p variants={itemVariants} className="text-gray-400 text-lg mb-8 leading-relaxed">
-              Your personal guide to discovering the right career, finding the perfect college near you,
-              and unlocking your full potential — built for students in Tamil Nadu.
+            <motion.p variants={itemVariants} className="mt-4 max-w-xl text-lg leading-8 text-slate-600 dark:text-slate-300">
+              Find the right career path, shortlist colleges, compare scholarships, and get practical guidance from real student experiences.
             </motion.p>
 
-            <motion.div variants={itemVariants} className="flex flex-wrap gap-4">
+            <motion.div variants={itemVariants} className="mt-8 flex flex-wrap gap-3">
               <Link to="/careers">
-                <motion.button
-                  whileHover={{ scale: 1.04, y: -2 }}
-                  whileTap={{ scale: 0.97 }}
-                  className="btn-primary px-7 py-3.5 rounded-xl font-semibold flex items-center gap-2 text-sm"
-                >
-                  Explore Careers <ArrowRight size={17} />
+                <motion.button whileHover={{ scale: 1.03, y: -1 }} whileTap={{ scale: 0.98 }} className="flex items-center gap-2 rounded-2xl bg-indigo-600 px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-indigo-600/20">
+                  Explore careers <ArrowRight size={17} />
                 </motion.button>
               </Link>
               <Link to="/colleges">
-                <motion.button
-                  whileHover={{ scale: 1.04, y: -2 }}
-                  whileTap={{ scale: 0.97 }}
-                  className="btn-glass px-7 py-3.5 rounded-xl font-semibold flex items-center gap-2 text-sm"
-                >
-                  Find Colleges <Building2 size={17} />
+                <motion.button whileHover={{ scale: 1.03, y: -1 }} whileTap={{ scale: 0.98 }} className="flex items-center gap-2 rounded-2xl border border-slate-300 bg-white/80 px-6 py-3.5 text-sm font-semibold text-slate-700 shadow-sm dark:border-white/10 dark:bg-slate-800/70 dark:text-slate-100">
+                  Find colleges <Building2 size={17} />
                 </motion.button>
               </Link>
             </motion.div>
           </div>
 
-          {/* Decorative grid pattern */}
-          <div className="absolute bottom-0 right-0 w-80 h-64 opacity-10 pointer-events-none"
-            style={{
-              backgroundImage: 'repeating-linear-gradient(0deg, rgba(255,255,255,0.1) 0px, rgba(255,255,255,0.1) 1px, transparent 1px, transparent 32px), repeating-linear-gradient(90deg, rgba(255,255,255,0.1) 0px, rgba(255,255,255,0.1) 1px, transparent 1px, transparent 32px)',
-              maskImage: 'radial-gradient(ellipse at bottom right, black 0%, transparent 70%)',
-            }} />
+          <motion.div variants={itemVariants} className="rounded-[28px] border border-white/60 bg-slate-950/90 p-6 text-white shadow-2xl shadow-indigo-950/20 dark:border-white/10">
+            <div className="flex items-center gap-2 text-sm font-semibold text-emerald-300">
+              <BadgeCheck size={16} />
+              Guided roadmap in 3 simple steps
+            </div>
+            <div className="mt-5 space-y-3">
+              {[
+                { title: 'Choose your stream', detail: 'Start with your interests and goals after 10th or 12th.' },
+                { title: 'Compare opportunities', detail: 'Explore colleges, careers and scholarships side by side.' },
+                { title: 'Move forward confidently', detail: 'Use real experiences to prepare for interviews and admissions.' },
+              ].map((step, index) => (
+                <div key={step.title} className="rounded-2xl border border-white/10 bg-white/10 p-4">
+                  <div className="flex items-start gap-3">
+                    <div className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-indigo-500/25 text-sm font-semibold text-indigo-200">
+                      {index + 1}
+                    </div>
+                    <div>
+                      <h3 className="font-semibold">{step.title}</h3>
+                      <p className="mt-1 text-sm text-slate-300">{step.detail}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </motion.div>
         </div>
       </motion.div>
 
-      {/* ── Animated Stats ── */}
       <motion.div variants={itemVariants}>
-        <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-widest mb-4">Platform Statistics</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="mb-4 flex items-center gap-2">
+          <Compass size={18} className="text-indigo-500" />
+          <h2 className="text-sm font-semibold uppercase tracking-[0.24em] text-slate-500 dark:text-slate-400">Platform Statistics</h2>
+        </div>
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
           {stats.map((stat) => <StatCard key={stat.label} stat={stat} />)}
         </div>
       </motion.div>
 
-      {/* ── Features ── */}
       <motion.div variants={itemVariants}>
-        <h2 className="text-2xl font-bold dark:text-white text-gray-900 mb-6">Explore Our Features</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="mb-5 flex items-end justify-between gap-3">
+          <div>
+            <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Explore our tools</h2>
+            <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">Everything you need to plan your next step in one place.</p>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {features.map((feature) => {
             const Icon = feature.icon;
             return (
@@ -301,20 +276,12 @@ export default function Home() {
         </div>
       </motion.div>
 
-      {/* ── Trending Companies ── */}
       <motion.div variants={itemVariants}>
-        <div className="flex items-center gap-2 mb-5">
+        <div className="mb-5 flex items-center gap-2">
           <TrendingUp size={20} className="text-indigo-400" />
-          <h2 className="text-2xl font-bold dark:text-white text-gray-900">Trending Companies</h2>
+          <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Trending companies</h2>
         </div>
-        <div
-          className="rounded-2xl p-5 relative overflow-hidden"
-          style={{
-            background: 'rgba(255,255,255,0.05)',
-            border: '1px solid rgba(255,255,255,0.1)',
-            backdropFilter: 'blur(16px)',
-          }}
-        >
+        <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white/70 p-5 shadow-sm backdrop-blur-xl dark:border-white/10 dark:bg-slate-900/60">
           <div className="flex flex-wrap gap-3">
             {trendingCompanies.map((co, i) => (
               <motion.button
@@ -324,11 +291,7 @@ export default function Home() {
                 transition={{ delay: i * 0.05 }}
                 whileHover={{ scale: 1.08, y: -2 }}
                 whileTap={{ scale: 0.95 }}
-                className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium text-white transition-all"
-                style={{
-                  background: 'rgba(255,255,255,0.08)',
-                  border: '1px solid rgba(255,255,255,0.14)',
-                }}
+                className="flex items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm font-medium text-slate-700 transition-all dark:border-white/10 dark:bg-slate-800/70 dark:text-slate-200"
               >
                 <span>{co.emoji}</span>
                 {co.name}
@@ -338,8 +301,7 @@ export default function Home() {
         </div>
       </motion.div>
 
-      {/* ── Two-column: Top Experiences + Recent Feed ── */}
-      <motion.div variants={itemVariants} className="grid grid-cols-1 lg:grid-cols-5 gap-6">
+      <motion.div variants={itemVariants} className="grid grid-cols-1 gap-6 lg:grid-cols-5">
 
         {/* Top-Rated Experiences */}
         <div className="lg:col-span-3 space-y-4">
@@ -354,12 +316,7 @@ export default function Home() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.1 + i * 0.12 }}
               whileHover={{ x: 4 }}
-              className="rounded-2xl p-5 cursor-pointer"
-              style={{
-                background: 'rgba(255,255,255,0.06)',
-                border: '1px solid rgba(255,255,255,0.1)',
-                backdropFilter: 'blur(14px)',
-              }}
+              className="cursor-pointer rounded-2xl border border-slate-200 bg-white/80 p-5 shadow-sm backdrop-blur-xl dark:border-white/10 dark:bg-slate-900/60"
             >
               <div className="flex items-start gap-3 mb-3">
                 <div className="w-10 h-10 rounded-xl flex items-center justify-center text-xl flex-shrink-0"
@@ -368,17 +325,17 @@ export default function Home() {
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 flex-wrap">
-                    <span className="font-bold text-white text-sm">{exp.company}</span>
-                    <span className="text-gray-500 text-xs">•</span>
-                    <span className="text-gray-400 text-xs">{exp.role}</span>
+                    <span className="text-sm font-bold text-slate-900 dark:text-white">{exp.company}</span>
+                    <span className="text-xs text-slate-400">•</span>
+                    <span className="text-xs text-slate-500 dark:text-slate-400">{exp.role}</span>
                   </div>
-                  <p className="text-gray-500 text-xs mt-0.5 truncate">{exp.college}</p>
+                  <p className="mt-0.5 truncate text-xs text-slate-500 dark:text-slate-400">{exp.college}</p>
                 </div>
                 <div className="flex-shrink-0 text-amber-400 text-xs">
                   {'★'.repeat(exp.rating)}
                 </div>
               </div>
-              <p className="text-gray-300 text-sm leading-relaxed line-clamp-2">{exp.excerpt}</p>
+              <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-300 line-clamp-2">{exp.excerpt}</p>
               <div className="flex gap-2 mt-3 flex-wrap">
                 {exp.tags.map((t) => (
                   <span key={t} className="badge badge-indigo">{t}</span>
@@ -394,14 +351,7 @@ export default function Home() {
             <Clock size={18} className="text-emerald-400" />
             <h2 className="text-xl font-bold dark:text-white text-gray-900">Recent Experiences</h2>
           </div>
-          <div
-            className="rounded-2xl p-4 space-y-3"
-            style={{
-              background: 'rgba(255,255,255,0.05)',
-              border: '1px solid rgba(255,255,255,0.08)',
-              backdropFilter: 'blur(14px)',
-            }}
-          >
+          <div className="space-y-3 rounded-2xl border border-slate-200 bg-white/70 p-4 shadow-sm backdrop-blur-xl dark:border-white/10 dark:bg-slate-900/60">
             {recentFeed.map((item, i) => (
               <motion.div
                 key={i}
@@ -409,28 +359,26 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 + i * 0.1 }}
                 whileHover={{ x: 3 }}
-                className="flex items-center gap-3 p-3 rounded-xl cursor-pointer transition-colors"
-                style={{ background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.07)' }}
+                className="flex cursor-pointer items-center gap-3 rounded-xl border border-slate-200 bg-slate-50/70 p-3 transition-colors dark:border-white/10 dark:bg-slate-800/60"
               >
                 <div className="w-9 h-9 rounded-lg flex items-center justify-center text-lg flex-shrink-0"
                   style={{ background: 'rgba(255,255,255,0.1)' }}>
                   {item.emoji}
                 </div>
                 <div className="flex-1 min-w-0">
-                  <p className="text-white text-xs font-semibold truncate">{item.company} — {item.role}</p>
-                  <p className="text-gray-500 text-xs truncate">{item.college}</p>
+                  <p className="truncate text-xs font-semibold text-slate-900 dark:text-white">{item.company} — {item.role}</p>
+                  <p className="truncate text-xs text-slate-500 dark:text-slate-400">{item.college}</p>
                   <div className="flex items-center gap-2 mt-1">
                     <span className="badge badge-cauvery" style={{ fontSize: '0.6rem' }}>🌊 {item.district}</span>
                   </div>
                 </div>
-                <span className="text-gray-600 text-xs flex-shrink-0">{item.timeAgo}</span>
+                <span className="flex-shrink-0 text-xs text-slate-500 dark:text-slate-400">{item.timeAgo}</span>
               </motion.div>
             ))}
             <Link to="/colleges">
               <motion.button
                 whileHover={{ scale: 1.02 }}
-                className="w-full mt-2 py-2.5 rounded-xl text-xs font-semibold text-indigo-400 transition-colors"
-                style={{ background: 'rgba(99,102,241,0.1)', border: '1px solid rgba(99,102,241,0.25)' }}
+                className="mt-2 w-full rounded-xl border border-indigo-200 bg-indigo-50 py-2.5 text-xs font-semibold text-indigo-600 transition-colors dark:border-indigo-400/20 dark:bg-indigo-500/10 dark:text-indigo-300"
               >
                 View All Experiences →
               </motion.button>

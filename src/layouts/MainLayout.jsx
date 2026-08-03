@@ -2,9 +2,10 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
+import { useTheme } from '../context/ThemeContext';
 
 export default function MainLayout({ children }) {
-  const [isDark, setIsDark] = useState(true);
+  const { isDark } = useTheme();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
@@ -28,11 +29,7 @@ export default function MainLayout({ children }) {
       <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
 
       <div className="flex-1 flex flex-col w-full relative z-10">
-        <Navbar
-          onMenuClick={() => setIsSidebarOpen((v) => !v)}
-          isDark={isDark}
-          setIsDark={setIsDark}
-        />
+        <Navbar onMenuClick={() => setIsSidebarOpen((v) => !v)} />
 
         <motion.main
           initial={{ opacity: 0, y: 16 }}

@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Search, Sun, Moon, Menu, Bell, User } from 'lucide-react';
+import { useTheme } from '../context/ThemeContext';
 
-export default function Navbar({ onMenuClick, isDark, setIsDark }) {
+export default function Navbar({ onMenuClick }) {
+  const { isDark, setIsDark } = useTheme();
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
